@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="mainImage" src="images/maingate.jpg" alt="Main Image">
+        <div id="locationName" class="location-name">Main-Gate</div>
+    
+        <button id="frontArrow" class="arrow arrow-front" onclick="changeImage('front')">▲</button>
+        <button id="backArrow" class="arrow arrow-back" onclick="changeImage('back')">▼</button>
+        <button id="leftArrow" class="arrow arrow-left" onclick="changeImage('left')">◀</button>
+        <button id="rightArrow" class="arrow arrow-right" onclick="changeImage('right')">▶</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
